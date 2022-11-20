@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.firstname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: #6c63ff; */
+    color: rgba(0, 0, 0, 0.248);
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+nav a:hover{
+    font-weight: bold;
+    color: #808080;
+}
+nav {
+    display: flex;
+    background-color: #FFF;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+   justify-content: space-around;
+   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.329);
+   z-index: 100;
+}
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #808080;
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+header{
+    display: inline;
+}
+.content1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20%;
+}
+main h1{
+    text-align: center;
+    margin: 15%;
+}
+main{
+    padding: 20px;
+    overflow: auto;
+}
+.swiper {
+    width: 100%;
+;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }

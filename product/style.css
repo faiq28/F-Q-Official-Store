@@ -3,6 +3,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 html{
     scroll-behavior: smooth;
@@ -22,13 +23,13 @@ body{
     font-weight: 700;
     font-family: "Poppins", sans-serif;
   }
-nav a:hover{
+  nav ul li a:hover{
     font-weight: bold;
     color: #808080;
     padding-bottom: 5px;
     border-bottom: 3px solid #808080;
     transition: 0.2s;
-}
+  }
 nav {
     display: flex;
     background-color: #FFF;
@@ -80,6 +81,14 @@ main h1{
     flex-wrap: wrap;
 }
 
+.flex-product3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
 
 
 .product-card {
@@ -118,9 +127,8 @@ main h1{
   .product-card .main-images img{
     position: absolute;
     height: 250px;
-    width: 300px;
+    width: 250px;
     object-fit: cover;
-    transform: rotate(18deg);
     left: 12px;
     top: -40px;
     z-index: -1;

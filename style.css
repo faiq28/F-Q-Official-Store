@@ -20,7 +20,7 @@ body{
     font-weight: 700;
     font-family: "Poppins", sans-serif;
   }
-nav a:hover{
+nav ul li a:hover{
     font-weight: bold;
     color: #808080;
     padding-bottom: 5px;
@@ -90,9 +90,18 @@ main{
     object-fit: cover;
   }
 
-.Our-Product a h2{
+.Our-Product h2{
   text-align: center;
   margin-bottom: 15%;
+}
+.Our-Product a h2{
+    margin: 0% 40%;
+    text-align: center;
+    align-items: center;
+    background-color: #0084ff7c;
+    height: 50px;
+    width: 20%;
+    border-radius: 20px;
 }
 
 

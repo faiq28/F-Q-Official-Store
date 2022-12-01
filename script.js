@@ -6,6 +6,8 @@
 //         nav.classList.remove("sticky");
 //     }
 // })
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     centeredSlides: true,
